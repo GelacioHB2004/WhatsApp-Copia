@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+    color: #d1d1d1;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 30%;
+    background-color: #2a2f32;
+    display: flex;
+    flex-direction: column;
+}
+
+.perfil {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfil img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.Buscar {
+    padding: 10px;
+}
+
+.Buscar input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    background-color: #3b3f42;
+    color: #d1d1d1;
+}
+
+.filtrar {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.filtrar button {
+    background-color: #3b3f42;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: #d1d1d1;
+    cursor: pointer;
+}
+
+.chats {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.chat {
+    padding: 10px;
+    border-bottom: 1px solid #3b3f42;
+    display: flex;
+    align-items: center;
+}
+
+.chat img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.chat-info {
+    flex: 1;
+}
+
+.chat-info span {
+    display: block;
+    color: #d1d1d1;
+}
+
+.tiempo {
+    color: #a9a9a9;
+}
+
+
+.main {
+    width: 70%;
+    background-color: #131c21;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.texto h1 {
+    color: #ffffff;
+}
+
+.texto p {
+    color: #a9a9a9;
+}
+
+.texto button {
+    background-color: #25d366;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
